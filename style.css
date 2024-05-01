@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+.navbar-1 {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 13px 13px 35px;
+}
+
+.nav {
+    color: #be024a;
+
+
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-item {
+    display: inline-block;
+    padding-right: 13px;
+}
+
+sub {
+    font-size: 8px;
+}
+
+.container {
+    background-image: url("photos/bg.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+.navbar-2 img {
+    width: 150px;
+    height: 90px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.menus {
+    float: left;
+
+}
+
+.menus {
+    width: 100%;
+    line-height: 90px;
+}
+
+.menus>li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    list-style-type: none;
+}
+
+.menus>li>a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.fmenu {
+    padding-left: 40px;
+}
+
+.menus>li>.buttons>.btns {
+    padding: 6px;
+    border: 1px solid #fff;
+    border-radius: 1px;
+    color: #fff;
+}
+
+.buy_item {
+    padding: 8px;
+    background-image: linear-gradient(to bottom, #be024a 15%, #ff0062 90%);
+    color: #fff;
+    font-size: 12px;
+}
+
+.partition {
+    clear: both;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.short-logo {
+    margin-top: 250px;
+
+}
+
+.contact-form {
+    background-color: #000;
+    height: 100%;
+    color: #fff;
+    opacity: .8;
+    z-index: 1;
+
+}
+
+.contact-form>h3 {
+    font-size: 30px;
+    padding: 80px 50px 20px;
+}
+
+.contact-form>hr {
+    width: 90%;
+    text-align: center;
+}
+
+.contact-form>.underline {
+    margin: 0 auto;
+    background-color: #fff;
+    width: 88%;
+    height: 5px;
+}
+
+.sources {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.sources>.booking,
+.sources>.speakers,
+.sources>.email {
+    display: grid;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 35px;
+    grid-template-columns: 40% 60%;
+}
+
+.sources>.booking>.booking-details,
+.sources>.speakers>.speakers-details,
+.sources>.email>.email-details {
+    padding: 3px;
+    font-size: 18px;
+}
+
+.sources>.booking>.source-logo,
+.sources>.speakers>.source-logo,
+.sources>.email>.source-logo {
+    color: #be024a;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.sources>.booking>div>i,
+.sources>.speakers>div>i,
+.sources>.email>div>i {
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.email-id {
+    margin-bottom: 30px;
+}
+
+form {
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+form label {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.nameandemail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+form label #text-message {
+    z-index: 9;
+    display: inline-block;
+    width: 99%;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    opacity: 1;
+}
+
+form label #name,
+form label #email,
+form label #phone-no,
+form #send {
+    z-index: 9;
+    display: inline-block;
+    width: 98%;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    opacity: 1;
+}
+
+form #send {
+    margin-top: 23px;
+    background-color: #ff0062;
+    color: #fff;
+}
+
+.maps {
+    width: 100%;
+}
+
+.newsletter-container {
+    background-image: url("photos/bottom.jpg");
+    width: 100%;
+    height: 1050px;
+    background-size: cover;
+    position: relative;
+
+}
+
+.newsletter-container>.new-background {
+    background-image: url("photos/newsletter.jpg");
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 550px;
+    background-size: cover;
+    border: 5px solid #fff;
+}
+
+.newsletter-container>.new-background>.header>.small-underline {
+    width: 25%;
+    height: 6px;
+    background-color: #ff0062;
+    margin: 10px auto;
+}
+
+.header {
+    margin-top: 150px;
+
+}
+
+.newsletter-container>.new-background>.header>h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+
+.newsletter-container>.new-background>p {
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.signin {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    margin: 50px auto;
+    display: block;
+}
+
+#SignInEmail {
+    padding: 10px;
+    width: 450px;
+    margin: 0 auto;
+    margin-left: 25%;
+}
+
+#clicktosignin {
+    padding: 10px;
+    width: 120px;
+    background-color: #ff0062;
+    color: #fff;
+    margin-left: 20px;
+}
+.last-section{
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 41%;
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bold;
+}
+.m-5{
+    margin-top: 20px;
+}
+.border-b{
+    border-bottom: 0.2em solid whitesmoke;
+    width: 30%;
+    text-align: center;
+    left: 32%;
+    position: relative;
+    margin-top: 5px;
+    
+}
+.Footer {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    background-color: black;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+
+}
+
+.leftside * {
+    text-align: left;
+
+}
+
+.redcolour {
+    color: #be024a;
+}
+
+.Footer > ul > li {
+    display: inline-block;
+    list-style-type: none;
+    margin :0 20px
+}
